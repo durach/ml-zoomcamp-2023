@@ -1,2 +1,3 @@
 .ipynb_checkpoints
 *.csv
+hw05/__pycache__
