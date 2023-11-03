@@ -1,6 +1,6 @@
 # Heart Failure Prediction
 
-The project is intended to predict cardiovascular disease based on patient measurements and medical data. 
+The project is intended to predict cardiovascular disease based on patient measurements and medical data. It could assist patients who avoid medical prescriptions to change their minds.
 
 The dataset is taken from Kaggle: [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 
@@ -16,8 +16,7 @@ It contains the following attributes:
 * ExerciseAngina: exercise-induced angina (Y: Yes, N: No)
 * Oldpeak: oldpeak = ST (Numeric value measured in depression)
 * ST_Slope: the slope of the peak exercise ST segment (Up: upsloping, Flat: flat, Down: downsloping)
-* HeartDisease: output class (1: heart disease, 0: Normal)
-
+* HeartDisease: output class (1: heart disease, 0: Normal) 
 
 # How to run the project locally
 
