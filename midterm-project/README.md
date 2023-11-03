@@ -22,7 +22,7 @@ It contains the following attributes:
 
 ## Install
 
-1. Create virtualenv. I recommend [pyenv](https://github.com/pyenv/pyenv) + [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+1. Create [virtualenv](https://docs.python.org/3/library/venv.html). I recommend [pyenv](https://github.com/pyenv/pyenv) + [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 2. Run `pip install -r requirements-live.txt`
 
 ## (Re)train model
