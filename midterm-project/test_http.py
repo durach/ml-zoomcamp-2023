@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
 import requests
+import argparse
 
 from pprint import pprint
 
-url = 'http://localhost:9911/predict'
+parser = argparse.ArgumentParser()
+parser.add_argument('--base-url', default='http://localhost:9911')
+args = parser.parse_args()
 
 patient = {
     "age": 40,
@@ -16,6 +19,6 @@ patient = {
     "st_slope": "Down",
 }
 
-response = requests.post(url, json=patient).json()
+response = requests.post(f"{args.base_url}/predict", json=patient).json()
 
 pprint(response)
