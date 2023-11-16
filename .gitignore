@@ -4,3 +4,5 @@ hw05/__pycache__
 .DS_Store
 *.bin
 midterm-project/__pycache__
+data
+08-data.zip
